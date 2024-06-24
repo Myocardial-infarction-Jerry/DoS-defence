@@ -124,6 +124,14 @@
 
 本研究展示了机器学习在DoS攻击检测中的应用潜力。我们通过对比多种机器学习模型，找到了各模型的优势和局限性。实验结果表明，适当的特征工程和模型选择对提高检测准确性至关重要。为了应对实际应用中的挑战，建议采用模型集成方法和自适应学习技术来提高模型的鲁棒性和适应性。未来的研究可以探索更多的特征提取技术和深度学习模型，以进一步提高DoS攻击检测的效果^[34]^。
 
+## GitHub
+
+```
+> git clone https://github.com/Myocardial-infarction-Jerry/DoS-defence
+> pip install -r requirements.txt
+> python main.py
+```
+
 ## 参考文献
 
 1. Stiawan, D., et al. (2011). "An analysis of denial of service attack on TCP/IP network." _International Journal of Computer Science and Information Security (IJCSIS)_.
@@ -163,11 +171,3 @@
 33. Li, Y., et al. (2018). "Machine learning techniques for classifying network anomalies and intrusions." _Proceedings of the 2018 IEEE International Conference on Big Data (Big Data)_.
 34. Kim, G., et al. (2014). "A novel hybrid intrusion detection method integrating anomaly detection with misuse detection." _Expert Systems with Applications_.
 
-## GitHub
-
-https://github.com/Myocardial-infarction-Jerry/DoS-defence
-
-```
-> pip install -r requirements.txt
-> python main.py
-```
